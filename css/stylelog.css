@@ -1,0 +1,204 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    height: auto;
+    width: auto;
+    background-position: center;
+    /* background-size: cover; 
+    position: absolute;
+}
+
+.container{
+    width: 45%;
+    color: bg-light;
+    align-self: center;
+}
+
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+}
+
+.button-box{
+    width: 80%;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f; 
+    border-radius: 30px ;
+}
+
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #9d98df,#221fe7);
+    border-radius : 30px;
+    transition: .5s;
+}
+
+
+
+
+.input-group{
+    top: 100px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #9d98df,#221fe7);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.check-box{
+    margin: 30px 30px 30px 0;
+}
+span{
+    color: #777;
+    font-size: 12px;
+    top: 75.5%;
+    bottom: 68px;
+    left: 8%;
+    position: absolute;
+}
+
+#login{
+    left:50px;
+}
+
+#register{
+    left: 450px;
+} */
+
+body {
+    font-family: Arial;
+     }
+  
+  /* .split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+    background :transparent;
+  }
+  
+  .right {
+    right: 0;
+    background : transparent
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }
+
+  /* body, html { height: 90%; } 
+.outer {
+  width: 1px;
+  height: 100%;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+.inner {
+  position: absolute;
+  width:100%;
+  height: 40%;
+  background:transparent
+  top: 30%;
+  box-shadow: 0px 0px 30px 20px;
+} */
+
+#cont4{
+    margin-top: 50px;
+    background-size: cover;
+    outline: transparent;
+}
+
+* {
+    box-sizing: border-box;
+  }
+.card{
+    column-gap:30%;
+    width: 350px ;
+    margin-left: 20% ; 
+    margin-right: 30%; 
+    box-shadow: 5px 10px #888888;  
+}
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    outline: none;
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    outline: none;
+
+  }
+  .btn-centered {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
